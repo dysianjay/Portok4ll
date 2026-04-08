@@ -1,0 +1,233 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 1280px;
+    height: 1150px;
+    position: relative;
+    overflow: hidden;
+}
+
+.container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../image/Background.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.3; 
+    z-index: -1;
+}
+
+.footer {
+    width: 100%;
+    height: 230px;
+    left: 7px;
+    top: 920px;
+    position: absolute;
+    background: #864000;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+}
+
+.contact-info {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    color: #ffefcf;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+}
+
+.contact-info div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.contact-label {
+    font-weight: 600;
+    color: #ffefcf;
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+.contact-value {
+    color: #ffefcf;
+    font-size: 13px;
+}
+
+.button-home {
+    width: 184px;
+    height: 56px;
+    left: 261px;
+    top: 957px;
+    position: absolute;
+    background: #d44000;
+    border-radius: 20px;
+    border: 2px solid #864000;
+}
+
+.button-home-text {
+    width: 90px;
+    height: 14px;
+    left: 311px;
+    top: 980px;
+    position: absolute;
+    text-align: center;
+    color: #ffefcf;
+    font-size: 16px;
+    font-family: Kumar One;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.button-timeline {
+    width: 184px;
+    height: 56px;
+    left: 576px;
+    top: 957px;
+    position: absolute;
+    background: #d44000;
+    border-radius: 20px;
+    border: 2px solid #864000;
+}
+
+.button-timeline-text {
+    width: 117px;
+    height: 26px;
+    left: 613px;
+    top: 977px;
+    position: absolute;
+    text-align: center;
+    color: #ffefcf;
+    font-size: 16px;
+    font-family: Kumar One;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.button-hobbies {
+    width: 184px;
+    height: 56px;
+    left: 891px;
+    top: 957px;
+    position: absolute;
+    background: #d44000;
+    border-radius: 20px;
+    border: 2px solid #864000;
+}
+
+.button-hobbies-text {
+    width: 90px;
+    height: 14px;
+    left: 943px;
+    top: 975px;
+    position: absolute;
+    text-align: center;
+    color: #ffefcf;
+    font-size: 16px;
+    font-family: Kumar One;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.hobby1 {
+    width: 354px;
+    height: 98px;
+    left: 164px;
+    top: 231px;
+    position: absolute;
+    background: #d44000;
+    border-radius: 20px;
+}
+
+.hobby1-text {
+    left: 260px;
+    top: 264px;
+    position: absolute;
+    text-align: center;
+    color: #ffefcf;
+    font-size: 24px;
+    font-family: Kode Mono;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.hobby2 {
+    width: 354px;
+    height: 98px;
+    left: 164px;
+    top: 561px;
+    position: absolute;
+    background: #d44000;
+    border-radius: 20px;
+}
+
+.hobby2-text {
+    width: 212px;
+    height: 28px;
+    left: 235px;
+    top: 596px;
+    position: absolute;
+    text-align: center;
+    color: #ffefcf;
+    font-size: 24px;
+    font-family: Kode Mono;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.hobby3 {
+    width: 354px;
+    height: 98px;
+    left: 794px;
+    top: 231px;
+    position: absolute;
+    background: #d44000;
+    border-radius: 20px;
+}
+
+.hobby3-text {
+    left: 925px;
+    top: 264px;
+    position: absolute;
+    text-align: center;
+    color: #ffefcf;
+    font-size: 24px;
+    font-family: Kode Mono;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.hobby4 {
+    width: 354px;
+    height: 98px;
+    left: 794px;
+    top: 561px;
+    position: absolute;
+    background: #d44000;
+    border-radius: 20px;
+}
+
+.hobby4-text {
+    left: 860px;
+    top: 596px;
+    position: absolute;
+    text-align: center;
+    color: #ffefcf;
+    font-size: 24px;
+    font-family: Kode Mono;
+    font-weight: 700;
+    word-wrap: break-word;
+}

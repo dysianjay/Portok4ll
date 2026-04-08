@@ -1,0 +1,209 @@
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    width: 1280px;
+    height: 1150px;
+    position: relative;
+    overflow: hidden;
+}
+
+.container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../image/Background.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.3; 
+    z-index: -1;
+}
+
+.header {
+    width: 100%;
+    height: 264px;
+    left: -7px;
+    top: 0px;
+    position: absolute;
+    background: #864000;
+    border-bottom-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+}
+
+.title {
+    width: 346px;
+    height: 84px;
+    left: 467px;
+    top: 90px;
+    position: absolute;
+    text-align: center;
+    color: #ffefcf;
+    font-size: 48px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.name {
+    left: 510px;
+    top: 311px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.about-title {
+    left: 122px;
+    top: 423px;
+    position: absolute;
+    color: black;
+    font-size: 32px;
+    font-family: serif;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.photo {
+    width: 214px;
+    height: 215px;
+    left: 131px;
+    top: 522px;
+    position: absolute;
+    background-image: url('../image/k4ll.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.about-text {
+    width: 842px;
+    left: 392px;
+    top: 558px;
+    position: absolute;
+    color: black;
+    font-size: 32px;
+    font-family: serif;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.footer {
+    width: 100%;
+    height: 230px;
+    left: -7px;
+    top: 920px;
+    position: absolute;
+    background: #864000;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+}
+
+.contact-info {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    color: #ffefcf;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+}
+
+.contact-info div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.contact-label {
+    font-weight: 600;
+    color: #ffefcf;
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+.contact-value {
+    color: #ffefcf;
+    font-size: 13px;
+}
+
+.button-timeline {
+    width: 184px;
+    height: 56px;
+    left: 567px;
+    top: 972px;
+    position: absolute;
+    background: #d44000;
+    border-radius: 20px;
+}
+
+.button-timeline-text {
+    width: 117px;
+    height: 26px;
+    left: 600px;
+    top: 987px;
+    position: absolute;
+    text-align: center;
+    color: #ffefcf;
+    font-size: 16px;
+    font-family: Kumar One;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.button-home {
+    width: 184px;
+    height: 56px;
+    left: 293px;
+    top: 972px;
+    position: absolute;
+    background: #d44000;
+    border-radius: 20px;
+}
+
+.button-home-text {
+    width: 68.26px;
+    height: 28px;
+    left: 350.38px;
+    top: 987px;
+    position: absolute;
+    text-align: center;
+    color: #ffefcf;
+    font-size: 16px;
+    font-family: Kumar One;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.button-hobbies {
+    width: 184px;
+    height: 56px;
+    left: 841px;
+    top: 972px;
+    position: absolute;
+    background: #d44000;
+    border-radius: 20px;
+}
+
+.button-hobbies-text {
+    width: 90px;
+    height: 14px;
+    left: 888px;
+    top: 987px;
+    position: absolute;
+    text-align: center;
+    color: #ffefcf;
+    font-size: 16px;
+    font-family: Kumar One;
+    font-weight: 400;
+    word-wrap: break-word;
+}
